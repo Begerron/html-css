@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Códigos fonte / Pré-formatado</h2>
+        <p>O comando <code>document.getElementById("teste")</code> é escrito em linguagem Javascript</p> <!--A tag CODE= Fonte Mono-Espaçada, Ótima para ler CÓDIGOS-->
+        <pre> <!--TAG PRE = Arruma o código ou qualquer outra linha da forma que foi digitado dentro do "PRE" (Espaço, quebra de linha e outros...)-->
+            <code> <!--CODE, não organiza o código com Indentação (Arrumação do código)-->
+    num = int(input("digite um numero"))
+    if num % 2 == 0:
+        print(f"o numero {num} é PAR")
+    else:
+        print(f"O numero {num} é IMPAR)
+    print("Fim do Programa")
+            </code>
+        </pre>
+        <h2>Citações Simples</h2> 
+            <p>Como diría o pai de um amigo: <q>O computador é um burro muito rápido</q></p><!--TAG Q = Sentido de citação (Semântica) Citações sem quebra-->
+        <h2>Citações Completas</h2> <!--blockquote, aparece DESLOCADA para direita, indicando citações para um determinado autor-->
+            <p>segundo Jeff Noble: HTML para LEigos:</p>
+            <blockquote cite="https://www.google.com.br/books/edition/Codifica%C3%A7%C3%A3o_Para_Leigos/AuaPDwAAQBAJ?hl=pt-BR&gbpv=1&dq=html+para+leigos&printsec=frontcover">A diferença entre Elementos Inline e um bloco de texto é importante, os elementos HTML nestten capitulo descreve o bloco de texto</blockquote> <!--Citação mais longa-->
+        <h2>Abreviações</h2>
+            <p>Estou estudando <abbr title="Hyper Text Markup Languase">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, estou adorando</p>
+        <h2>Texto Invertido</h2>
+            <p><bdo dir="rtl">Estou apredendo HTML e CSS</bdo></p>
+</body>
+</html>

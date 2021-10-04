@@ -1,0 +1,19 @@
+@charset "UTF-8";/*@ são regras, e sao iniciadas no inicio do CSS, (UTF-8) compatibilidade com acentuações*/
+
+
+/*Esse é um estilo Local, aconselhavel para configuracoes de pagina unica*/
+body {
+    background-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: maroon;
+    background-color: darkgoldenrod;
+}
+h2{
+    color: darkred;
+}
+p{
+    text-align: justify;
+}
